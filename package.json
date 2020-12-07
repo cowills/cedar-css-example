@@ -1,0 +1,19 @@
+{
+  "name": "cedar-css-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@rei/cdr-component-variables": "^4.0.0",
+    "@rei/cdr-tokens": "^6.0.2",
+    "node-sass": "^5.0.0",
+    "postcss-scss": "^3.0.4",
+    "rollup": "^2.34.2",
+    "rollup-plugin-postcss": "^4.0.0"
+  }
+}

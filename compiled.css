@@ -1,0 +1,77 @@
+/* ==========================================================================/*
+* Token option variables
+*
+* these are temporary variables, providing
+* cedar components mappings to previously available tokens.
+* These varables should be removed as tokens are available
+*
+=============================================================== */
+/* ---------------------
+* Outline
+* ------------------- */
+/* start of mixins/component variables*/
+/* input label disabled */
+/* select base */
+/* --large */
+/* required label */
+/* info container */
+/* helper text */
+/* caret */
+/* compact */
+/* compact nested */
+/* ordered */
+/* unordered nested */
+.tokens-example {
+  color: rgba(12, 11, 8, 0.75); }
+
+.component-variables-example {
+  font-family: Graphik, "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -.08px;
+  font-size: 16px;
+  line-height: 22px;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  overflow: visible;
+  padding: 0.8rem 1.6rem;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  vertical-align: middle;
+  transition: box-shadow 0.2s cubic-bezier(0.15, 0, 0.15, 0), background-color 0.2s cubic-bezier(0.15, 0, 0.15, 0), color 0.2s cubic-bezier(0.15, 0, 0.15, 0);
+  /* States
+    ---------- */
+  background-color: #225c4e;
+  box-shadow: inset 0 0 0 1px #225c4e;
+  color: #f9f8f6;
+  fill: #f9f8f6;
+  /* States
+    ---------- */ }
+  .component-variables-example:hover, .component-variables-example:active, .component-variables-example:focus {
+    outline: none;
+    outline-offset: 0;
+    text-decoration: none; }
+  .component-variables-example:focus {
+    outline: 0.2rem solid Highlight;
+    outline-color: -webkit-focus-ring-color; }
+  .component-variables-example[disabled] {
+    cursor: not-allowed; }
+  .component-variables-example:hover, .component-variables-example:focus {
+    color: #225c4e;
+    fill: #225c4e;
+    background-color: #c7dfd1;
+    box-shadow: inset 0 0 0 3px #225c4e, 0 0.2rem 0.2rem 0 rgba(12, 11, 8, 0.2); }
+  .component-variables-example:active {
+    color: #f9f8f6;
+    fill: #f9f8f6;
+    background-color: #225c4e;
+    box-shadow: inset 0 0 0 3px #225c4e, inset 0 0 0 5px #c7dfd1; }
+  .component-variables-example[disabled] {
+    background-color: #dcd6cb;
+    box-shadow: inset 0 0 0 1px #dcd6cb;
+    color: #ffffff;
+    fill: #ffffff; }

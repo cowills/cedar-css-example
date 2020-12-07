@@ -1,0 +1,16 @@
+@import '~@rei/cdr-tokens/dist/scss/cdr-tokens.scss';
+@import '~@rei/cdr-component-variables/dist/scss/index.scss';
+
+
+// See tokens page on doc site for more examples:
+// https://rei.github.io/rei-cedar-docs/tokens/all-tokens/
+.tokens-example {
+  color: $cdr-color-text-primary;
+}
+
+// See component variables page on doc site for more examples:
+// https://rei.github.io/rei-cedar-docs/components/component-variables/
+.component-variables-example {
+  @include cdr-button-base-mixin;
+  @include cdr-button-primary-mixin;
+}
